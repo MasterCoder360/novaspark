@@ -4,146 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NovaSpark Dev</title>
-    <link rel="preconnect" href="https://googleapis.com">
-    <link rel="preconnect" href="https://gstatic.com" crossorigin>
-    <link href="https://googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
-    <style>
-        body {
-            margin: 0;
-            padding-top: 80px; 
-            font-family: Arial, sans-serif;
-            background: linear-gradient(135deg, #1e1e2f, #4a00e0, #8e2de2);
-            background-attachment: fixed;
-            min-height: 200vh; 
-            color: #ffffff;
-        }
-        header {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            z-index: 1000;
-            background: rgba(255, 255, 255, 0.07); 
-            backdrop-filter: blur(12px); 
-            -webkit-backdrop-filter: blur(12px); 
-            border-bottom: 1px solid rgba(255, 255, 255, 0.15);
-            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-        }
-        nav {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 15px 30px;
-            box-sizing: border-box;
-        }
-        .logo {
-            background: transparent;
-            border: none;
-            color: #ffffff;
-            font-size: 1.5rem;
-            font-weight: bold;
-            cursor: pointer;
-        }
-
-        .navlinks {
-            display: flex;
-            list-style: none;
-            margin: 0;
-            padding: 0;
-            gap: 30px;
-        }
-        .navlinks a {
-            color: rgba(255, 255, 255, 0.8);
-            text-decoration: none;
-            font-size: 1rem;
-            transition: color 0.3s ease;
-        }
-        .navlinks a:hover {
-            color: #ffffff;
-        }
-        .btn {
-            background: rgba(255, 255, 255, 0.2);
-            border: 1px solid rgba(255, 255, 255, 0.3);
-            color: #ffffff;
-            padding: 8px 20px;
-            border-radius: 20px;
-            cursor: pointer;
-            transition: background 0.3s ease;
-        }
-        .btn:hover {
-            background: rgba(255, 255, 255, 0.4);
-        }
-    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
 <header>
     <nav>
         <button class="logo" onclick="window.location.href='index.html'">NovaSpark Dev</button>
-                <ul class="navlinks">
+        <ul class="navlinks">
             <li><a href="about.html" title="about me">About</a></li>
             <li><a href="hobbies.html" title="my hobbies">Hobbies</a></li>
             <li><a href="projects.html" title="my projects">Projects</a></li>
             <li><a href="https://stardance.hackclub.com/@MasterCoder" title="Visit me in Stardance" target="_blank">Profile</a></li>
         </ul>
-        
         <div class="btns">
             <button class="btn" onclick="window.location.href='feedback.html'">Feedback</button>
         </div>
     </nav>
 </header>
-    <style>
 
-        body {
-            margin: 0;
-            display: flex;
-            justify-content: center; 
-            align-items: center;
-            min-height: 100vh;     
-            background-color: #f0f0f0; 
-        }
+<div class="glass-box">
+    <h1 style="margin: 0;">Welcome to</h1>
+    <h1 class="digital-display">NovaSpark Dev</h1>
+    <h2 style="margin: 0; font-weight: normal; color: rgba(255, 255, 255, 0.9);">Raahil Aalam's personal site!</h2>
+    <button class="btn" onclick="window.location.href='about.html'">Learn more</button>
+</div>
 
-        .black-box {
-            width: 1660px;
-            max-width: 95%;       
-            height: 700px;
-            background-color: #000; 
-            color: #fff;             
-            border-radius: 20px;
-            padding: 20px;
-            box-sizing: border-box;
-        }
-    </style>
-        <style>
-        body {
-            background-color: #0b0c10; 
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
-        }
-
-        h1.digital-display {
-            font-family: 'Playfair Display', Georgia, serif;
-            font-size: 3rem;
-            color: #66fcf1;
-            text-transform: uppercase;
-            letter-spacing: 4px;
-            
-            text-shadow: 0 0 5px #66fcf1, 
-                         0 0 10px #66fcf1, 
-                         0 0 20px #45a29e;
-        }
-    </style>
-</head>
-<body>
-    <div class="black-box">
-        <h1 style="text-align: center;">Welcome to </h1>
-        <h1 style="text-align: center;" class="digital-display">NovaSpark Dev</span></h1>
-        <h2 style="text-align: center;">Raahil Aalam's personal site!</h2>
-    </div>
 </body>
 </html>
