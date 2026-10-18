@@ -112,10 +112,10 @@ h1.digital-display {
 }
 
 #fadeText {
-    font-size: 2em;
+    font-size: 1.5em;
     opacity: 0;
     animation: fadeIn 2s ease-in forwards;
-    animation-delay: 0.5s; 
+    animation-delay: 13s; 
 }
 
 @keyframes fadeIn {
